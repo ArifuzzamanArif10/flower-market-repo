@@ -16,6 +16,8 @@
   color: #ffffff;
   padding: 26px 50px;
 
+  gap: 10px;
+
   font-weight: 600;
   font-size: 16px;
   border: none;
@@ -118,7 +120,6 @@
 /* our Plants */
 
 .our-plants {
-  /* background-color: green; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -159,7 +160,13 @@
 }
 
 .our-Plants-right {
-  /* flex: 1; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 60px;
+}
+
+.our-Plants-right-cart {
   display: flex;
   align-items: center;
   justify-content: center;
