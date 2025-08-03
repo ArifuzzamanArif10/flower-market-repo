@@ -11,6 +11,16 @@
   margin: auto;
 }
 
+.btn {
+  background-color: #e95a08;
+  color: #ffffff;
+  padding: 26px 50px;
+
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+}
+
 /* Noto serif font */
 
 .noto-serif-font {
@@ -103,4 +113,74 @@
 
 .banner-flower .orange-text {
   color: #e95a08;
+}
+
+/* our Plants */
+
+.our-plants {
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 150px auto;
+  gap: 49px;
+}
+.our-Plants-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.our-plants h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.our-plants .black-text {
+  color: #000000;
+}
+
+.our-plants .orange-text {
+  color: #e95a08;
+}
+
+.our-plants p {
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.6;
+}
+
+.our-plants .indent {
+  display: inline-block;
+  margin-left: 90px;
+}
+
+.our-Plants-right {
+  /* flex: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.our-plants .our-Plants-right img {
+  margin-bottom: 30px;
+}
+
+.our-plants .lily {
+  font-weight: 500;
+  font-size: 22px;
+  color: #111111;
+  margin-left: 45px;
+}
+
+.our-plants .taka {
+  font-weight: 700;
+  font-size: 22px;
+  color: #111111;
+  margin-left: 70px;
+  margin-bottom: 30px;
 }
