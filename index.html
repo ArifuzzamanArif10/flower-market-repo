@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Market</title>
 
+    <!-- Noto Serif Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Inter font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Cdn -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -13,24 +31,55 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- css file -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+
+  <body class="noto-serif-font">
+    <!-- Header -->
+
     <header>
-      <section>
-        <div>
+      <section class="heading container">
+        <div class="heading-left">
           <img src="assets/logo.png" alt="" />
         </div>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Shop</a></li>
-          <li><a href="">About us</a></li>
-          <li>
-            <a href=""><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a>
-          </li>
-        </ul>
-        <div></div>
+
+        <div class="heading-right inter-font">
+          <ul>
+            <li class="home"><a href="">Home</a></li>
+            <li class="shop"><a href="">Shop</a></li>
+            <li class="about-us"><a href="">About us</a></li>
+            <li class="cart">
+              <a href=""
+                ><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </header>
+
+    <!-- Main Section -->
+
+    <main>
+      <!-- ALWAYS FRESH FLOWER -->
+      <section class="banner-flower container">
+        <div class="banner-flower-left">
+          <h1>
+            <span class="black-text">ALWAYS</span>
+            <span class="orange-text">FRESH FLOWER</span>
+          </h1>
+          <p>
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+
+        <div class="banner-flower-right">
+          <img src="assets/hero-flower.png" alt="" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>

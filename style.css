@@ -1,0 +1,106 @@
+/* common */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* Noto serif font */
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+}
+
+/* Inter Font */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+/* Header - Banner Section */
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.heading-right ul {
+  display: flex;
+  gap: 48px;
+}
+
+.heading-right ul li {
+  list-style-type: none;
+}
+.heading-right ul li a {
+  text-decoration: none;
+}
+
+.heading .home a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #252432;
+}
+.heading .shop a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8987a1;
+}
+
+.heading .about-us a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8987a1;
+}
+
+.heading .cart a {
+  color: #000000;
+}
+
+/* Main Section */
+
+/* Always Flower Section */
+
+.banner-flower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 130px auto;
+}
+.banner-flower-left {
+  height: fit-content;
+}
+
+.banner-flower h1 {
+  font-weight: 700;
+  font-size: 65px;
+  margin: 13px 0;
+}
+
+.banner-flower p {
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-flower img {
+  display: block;
+}
+
+.banner-flower .black-text {
+  color: #000000;
+}
+
+.banner-flower .orange-text {
+  color: #e95a08;
+}
