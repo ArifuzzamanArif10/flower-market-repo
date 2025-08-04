@@ -268,74 +268,110 @@
   margin: 150px auto;
 }
 
+.only-flower-left {
+  height: 423px;
+  gap: 28px;
+}
+
 /* flower/deal bloom */
 .only-flower-left .deal-bloom {
   position: relative;
-  display: inline-block;
+  padding-bottom: 28px;
+}
+
+.only-flower-left .deal-bloom img {
+  border-radius: 14px;
 }
 
 .only-flower .deal-bloom-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+
   position: absolute;
   top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  color: white;
+  left: 35%;
+  transform: translate(-27%, -50%);
 }
 
 .only-flower .deal-bloom-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  color: white;
+  text-decoration-line: underline;
 }
 
 /* flower/ deal ana */
 .only-flower-left .deal-ana {
   position: relative;
-  display: inline-block;
 }
 
+.only-flower-left .deal-ana img {
+  border-radius: 14px;
+}
 .only-flower .deal-ana-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+
   position: absolute;
   top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+  left: 44%;
+  transform: translate(-37%, -50%);
   color: white;
 }
 
 .only-flower .deal-ana-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 
+  text-decoration-line: underline;
   color: white;
 }
 
 /* flower/ deal zabo */
 .only-flower-right .deal-zabo {
   position: relative;
-  display: inline-block;
+  height: 423.13px;
 }
-
+.only-flower-right .deal-zabo img {
+  border-radius: 22px;
+}
 .only-flower .deal-zabo-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+
   position: absolute;
   top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 44%;
+  transform: translate(-37%, -50%);
 
   color: white;
 }
 
 .only-flower .deal-zabo-subtitle {
+  font-weight: 600;
+  font-size: 28px;
+  color: #ffffff;
+
   position: absolute;
-  top: 52%;
+  top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
 
+  text-decoration-line: underline;
   color: white;
 }
