@@ -191,3 +191,151 @@
   margin-left: 70px;
   margin-bottom: 30px;
 }
+
+/* Flower & Plants Lover */
+
+.flower-plants {
+  display: flex;
+  align-items: center;
+
+  margin: 180px auto;
+  gap: 60px;
+}
+
+.flower-plants h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+
+  margin-bottom: 20px;
+}
+
+.flower-plants ul {
+  padding-left: 50px;
+}
+.flower-plants li {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 22px;
+
+  padding-bottom: 20px;
+}
+
+/* Latest  Deals */
+
+.latest-deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 150px auto;
+  gap: 16px;
+}
+
+.latest-deal h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.latest-deal .black-text {
+  color: #000000;
+}
+
+.latest-deal .orange-text {
+  color: #e95a08;
+}
+
+.latest-deal p {
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.6;
+}
+
+.latest-deal .indent {
+  display: inline-block;
+  margin-left: 90px;
+}
+
+/* Only Flower Section */
+
+.only-flower {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+
+  margin: 150px auto;
+}
+
+/* flower/deal bloom */
+.only-flower-left .deal-bloom {
+  position: relative;
+  display: inline-block;
+}
+
+.only-flower .deal-bloom-title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+}
+
+.only-flower .deal-bloom-subtitle {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+}
+
+/* flower/ deal ana */
+.only-flower-left .deal-ana {
+  position: relative;
+  display: inline-block;
+}
+
+.only-flower .deal-ana-title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+}
+
+.only-flower .deal-ana-subtitle {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+}
+
+/* flower/ deal zabo */
+.only-flower-right .deal-zabo {
+  position: relative;
+  display: inline-block;
+}
+
+.only-flower .deal-zabo-title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+}
+
+.only-flower .deal-zabo-subtitle {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+}
