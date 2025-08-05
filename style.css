@@ -202,6 +202,22 @@
   gap: 60px;
 }
 
+.flower-plants-left {
+  position: relative;
+}
+
+.flower-plants-left .trusted-badge {
+  height: 286px;
+  width: 286px;
+
+  margin-left: 80px;
+
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-0%, -50%);
+}
+
 .flower-plants h2 {
   font-size: 50px;
   font-weight: 700;
