@@ -14,7 +14,7 @@
 .btn {
   background-color: #e95a08;
   color: #ffffff;
-  padding: 26px 50px;
+  padding: 15px 50px;
 
   gap: 10px;
 
@@ -263,7 +263,7 @@
 .only-flower {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 70px;
 
   margin: 150px auto;
 }
@@ -374,4 +374,92 @@
 
   text-decoration-line: underline;
   color: white;
+}
+
+/* colorfulBunch */
+
+.colorful-Bunch {
+  max-width: 1440px;
+  height: 533px;
+
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.colorful-Bunch-div {
+  position: relative;
+}
+
+.colorful-Bunch-div h2 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.colorful-Bunch-div .email-button {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-10%, -50%);
+}
+
+.colorful-Bunch-div .email-button .email {
+  width: 644px;
+  height: 50px;
+
+  padding-left: 30px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-bottom: 100px;
+}
+
+.footer-middle {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 212px;
+
+  gap: 30px;
+}
+
+.footer-left img {
+  padding-bottom: 16px;
+}
+
+.footer-left p {
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+
+  font-family: "Inter", sans-serif;
+}
+
+.footer-middle-left p {
+  padding-bottom: 26px;
+  color: #6b7280;
+}
+
+.footer-middle-right p {
+  padding-bottom: 26px;
+  color: #6b7280;
 }
